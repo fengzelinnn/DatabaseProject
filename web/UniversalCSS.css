@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: rgba(39, 44, 53, 0.87);
+}
+
+/*输入框样式，去掉背景阴影模仿原生应用的输入框*/
+input {
+    width: 30%;
+    height: 50px;
+    border: none;
+    padding-left: 3px;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/*container*/
+#page_container {
+    margin: 50px;
+}
+
