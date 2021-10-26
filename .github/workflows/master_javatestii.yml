@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: java-app
-          path: '${{ github.workspace }}/target/classes/*.war'
+          path: '$MODULE_DIR$/target/classes/*.war'
 
   deploy:
     runs-on: ubuntu-latest
